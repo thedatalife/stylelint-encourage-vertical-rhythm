@@ -1,8 +1,17 @@
-# stylelint-encourage-vertical-rhythm
+Style Lint - Encourage Vertical Rhythm
+======================================
 
 A simple stylelint plugin to encourage (or enforce) the consideration of vertical rhythm in css.
 
 Takes a single string as the argument and this is used in a regular expression to validate the presence of the string inside any property that can affect vertical rhythm.
+
+## Installation
+
+`npm install @thedatalife/stylelint-encourage-vertical-rhythm`
+
+## Usage
+
+The plugin takes a string as the first argument and uses that value in the regular expression check of the property value. This allows the developer to define the best convention (function or variable) for the project.
 
 ```
 var vrProps = [
@@ -16,10 +25,6 @@ var vrProps = [
   'border-bottom'
 ];
 ```
-
-## usage
-
-The plugin takes a string as the first argument and uses that value in the regular expression check of the property value. This allows the developer to define the best convention (function or variable) for the project.
 
 ```
 'twitter/encourage-vertical-rhythm': 'baseline'
@@ -41,6 +46,10 @@ $baseline: 24px;
 .module1 { margin-bottom: $baseline * 1.5; }
 ```
 
-## test
+# Tests
 
 The plugin uses tape to provide unit test. Start the test suite with ```npm run test```.
+
+## Contributing
+
+In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
