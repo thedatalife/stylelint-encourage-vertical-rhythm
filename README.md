@@ -27,7 +27,7 @@ var vrProps = [
 ```
 
 ```
-'twitter/encourage-vertical-rhythm': 'baseline'
+'thedatalife/encourage-vertical-rhythm': 'baseline'
 ```
 
 This will match both the use of baseline as a function or variable.

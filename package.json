@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-encourage-vertical-rhythm",
+  "name": "@thedatalife/stylelint-encourage-vertical-rhythm",
   "version": "1.0.0",
   "description": "Stylelint plugin to warn when a vertical rhythm unit is not used in a css property that will affect the vertical rhythm of the page.",
   "main": "index.js",

@@ -1,7 +1,7 @@
 // Abbreviated example
 var stylelint = require('stylelint');
 
-var ruleName = 'twitter/encourage-vertical-rhythm';
+var ruleName = 'thedatalife/encourage-vertical-rhythm';
 var vrProps = [
   'height',
   'padding-top',
