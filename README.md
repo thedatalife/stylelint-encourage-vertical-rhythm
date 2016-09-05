@@ -25,6 +25,7 @@ var vrProps = [
   'border-bottom'
 ];
 ```
+### Basic Use
 
 ```
 'thedatalife/encourage-vertical-rhythm': 'baseline'
@@ -45,6 +46,29 @@ $baseline: 24px;
 
 .module1 { margin-bottom: $baseline * 1.5; }
 ```
+
+### Advanced Use
+
+It's also possible to provide your baseline value as config. This will allow the plugin
+to provide copy and paste suggestions on what to replace the invaid property with.
+
+Provide a baseline and type property. Type can be either 'function' or 'variable'.
+
+***As a function***
+
+```
+'thedatalife/encourage-vertical-rhythm': ['baseline', {baseline: 24, type: 'function'}]
+```
+
+A vertical rhythm property with `48px` would throw a warning with the suggestion `baseline(2)`.
+
+***As a variable***
+
+```
+'thedatalife/encourage-vertical-rhythm': ['baseline', {baseline: 24, type: 'variable'}]
+```
+
+A vertical rhythm property with `48px` would throw a warning with the suggestion `$baseline * 2`.
 
 # Tests
 
