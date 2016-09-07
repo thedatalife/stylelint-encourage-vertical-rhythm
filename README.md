@@ -77,3 +77,12 @@ The plugin uses tape to provide unit test. Start the test suite with ```npm run 
 ## Contributing
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
+
+# Inspiration
+
+Vertical rhythm is an often misunderstood concept. It's an important part of design architecture and if respected it can bring harmony to the flow of a page. This plugin was inspired by a variety of sources:
+
+[http://www.gridlover.net/try](http://www.gridlover.net/try)
+[https://pilot.co/blog/implementing-baseline-rhythm-in-css/](https://pilot.co/blog/implementing-baseline-rhythm-in-css/)
+[https://www.smashingmagazine.com/2012/12/css-baseline-the-good-the-bad-and-the-ugly/](https://www.smashingmagazine.com/2012/12/css-baseline-the-good-the-bad-and-the-ugly/)
+[https://medium.com/@tbredin/a-jolly-web-typesetting-adventure-42948ab0d1dd](https://medium.com/@tbredin/a-jolly-web-typesetting-adventure-42948ab0d1dd)
